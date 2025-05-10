@@ -2,36 +2,57 @@
 	font-family: 'GenshinFont';
 	src: url('fonts/Genshin_Impact.ttf') format('truetype');
 }
-body{
-	font-family: 'roboto', sans-serif;
-	text-align: justify;
-}
-body, ul{
-	margin: 0;
-	padding:0;
-}
 
-h1,h2 .col-sm {
+body {
 	font-family: 'GenshinFont', sans-serif;
+	text-align: justify;
+	margin: 0;
+	padding: 0;
 }
 
-.skill-list{
-	font-family:'cinzel', serif;
+ul {
+	margin: 0;
+	padding: 0;
 }
-img, video{
-	/*this limit width image*/
+
+h1, h2 {
+	font-family: 'GenshinFont', sans-serif;
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 100px;
+	line-height: 130%;
+}
+
+h2 {
+	font-size: 30px;
+	line-height: 130%;
+}
+
+.skill-list {
+	font-family: 'cinzel', serif;
+	text-align: center;
+	margin-bottom: 130px;
+	font-size: 50px;
+	line-height: 150%;
+}
+
+img, video {
 	max-width: 100%;
 }
-nav{
+
+nav {
 	background-color: #9B7EBD;
 	position: fixed;
 	z-index: 1;
 	width: 100%;
 }
-header{
-	top:70px;
+
+header {
+	top: 70px;
 	position: relative;
-	margin-bottom:  220px;
+	margin-bottom: 220px;
 	background-image: url('../img/background.png');
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -39,117 +60,95 @@ header{
 }
 
 nav ul li a {
-    color: white;
+	color: white;
+	text-decoration: none;
 }
 
+nav ul li a:hover {
+	text-decoration: underline;
+}
 
-nav ul li{
+nav ul li {
 	display: inline-block;
 	margin: 0 15px;
-	padding:0;
+	padding: 0;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-size: 14px;
 }
 
-
-nav ul{
+nav ul {
 	margin: 0 auto;
 	text-align: center;
 	padding: 30px;
-
 }
 
-h1{
-	font-size: 100px;
-	line-height: 130%;
-}
-h2{
-	font-size: 30px;
-	line-height: 130%;
-}
-h1, h2{
-	font-weight: normal;
-}
-p{
+p {
 	line-height: 150%;
 }
 
-ul li{
+ul li {
 	list-style: none;
 	margin: 10px 0;
 }
 
-.button{
+.button {
 	border: 1px solid black;
 	font-size: 15px;
 	border-radius: 20px;
 	text-decoration: none;
 	color: black;
 	padding: 10px 20px;
-	margin-top:40px;
+	margin-top: 40px;
 	display: inline-block;
 	transition: background 0.5s ease-in-out;
 }
-.button:hover{
-	background:black;
-	color: white; 
 
+.button:hover {
+	background: black;
+	color: white; 
 }
-figcaption{
+
+figcaption {
 	font-size: 10px;
 	margin-top: 10px;
 }
 
-.intro-img{
+.intro-img {
 	box-shadow: 1px 2px 30px rgba(0,0,0,0.2);
 	margin-top: 30px;
-
 }
 
-.skill-list {
-	text-align: center;
-    margin-bottom: 130px;
-	font-size: 50px;
-	line-height: 150%
-}
-.project{
+.project {
 	margin: 30px 0; 
 	padding: 50px;
 }
 
-.blue{
+.project .button {
+	margin-top: 10px;
+}
+
+.blue {
 	background-color: #FFF7F3;
 }
 
-.project .button{
-	margin-top: 10px;
-}
-footer{
+footer {
 	text-align: center;
-	margin:100px;
-
+	margin: 100px;
 }
-footer h2{
+
+footer h2 {
 	font-size: 50px;
-	margin-bottom:100px; 
-
+	margin-bottom: 100px; 
 }
-.left-alignment{
+
+.left-alignment {
 	text-align: left;
 }
 
-li.empty{
+li.empty {
 	width: 90px;
 	border-top: 1px solid white;
-	top:-5px;
+	top: -5px;
 	position: relative; 
-}
-
-nav li a{
-	text-decoration: none;
-	color: black;
-}
-nav li a:hover{
-	text-decoration: underline;
 }
